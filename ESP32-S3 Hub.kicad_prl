@@ -128,7 +128,7 @@
     "files": [
       {
         "name": "ESP32-S3 Hub.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,
