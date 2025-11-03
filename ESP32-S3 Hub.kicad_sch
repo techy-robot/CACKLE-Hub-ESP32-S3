@@ -2206,14 +2206,14 @@
 		)
 		(uuid "000427ed-6c04-47d5-827f-064ac587dddb")
 	)
-	(text_box "DANGER ZONE. I'm using the USB datalines for the shift register, because the shift register interfaces does not need any pullups and it does not output until the enable pin is up. USB wackyness should not cause issues and I will disable USB when using the shift register"
+	(text_box "DANGER ZONE. I'm using the USB/GP18-20 for analog b/c the shift register is using dedicated SPI pins. USB wackyness will need to be accounted for, hopefully not cause issues on driver, and I will disable USB after start"
 		(exclude_from_sim no)
-		(at 62.23 95.25 0)
+		(at 54.356 94.742 0)
 		(size 39.37 17.78)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -2266,9 +2266,9 @@
 		)
 		(uuid "15088e59-20b0-418a-a7e0-fa0385c506e1")
 	)
-	(text_box "Each output needs to be all on the same ADC, skipping GP10/ADC1_CH9"
+	(text_box "Each output needs to be all on the same ADC, so 8 pins for ADC"
 		(exclude_from_sim no)
-		(at 69.85 83.82 0)
+		(at 44.196 84.074 0)
 		(size 24.13 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2305,6 +2305,26 @@
 			(justify left top)
 		)
 		(uuid "42b8ec2e-59c2-4ef1-9715-cad859acd87d")
+	)
+	(text_box "Using the FSPI interface, CLK GP12, D/Data out GP11, CS, GP10"
+		(exclude_from_sim no)
+		(at 70.612 83.82 0)
+		(size 22.352 9.398)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d7092efa-6416-40e3-a4e8-c6a3f7d80340")
 	)
 	(text_box "Formula for crystal capacitance: C_load = (C1 * C2) / (C1 + C2) + Cstray. C stray is from the short traces, estimate 3~5pF"
 		(exclude_from_sim no)
@@ -3900,7 +3920,7 @@
 	)
 	(global_label "4CSA-C"
 		(shape input)
-		(at 118.11 90.17 180)
+		(at 118.11 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3910,7 +3930,7 @@
 		)
 		(uuid "1a1d2a6b-1626-4537-9ba8-75271d9f703b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.5048 90.17 0)
+			(at 107.5048 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +3964,7 @@
 	)
 	(global_label "4CSA-B"
 		(shape input)
-		(at 118.11 95.25 180)
+		(at 118.11 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3954,7 +3974,7 @@
 		)
 		(uuid "24e0d958-61ed-4c91-8bc3-8e24f1d5c054")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.5048 95.25 0)
+			(at 107.5048 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4228,7 @@
 	)
 	(global_label "ShiftData"
 		(shape input)
-		(at 118.11 107.95 180)
+		(at 118.11 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4218,7 +4238,7 @@
 		)
 		(uuid "9a5321ef-814c-477a-bd4f-6ba3419aa3ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.4164 107.95 0)
+			(at 106.4164 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4250,7 @@
 	)
 	(global_label "4CSA-D"
 		(shape input)
-		(at 118.11 92.71 180)
+		(at 118.11 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4240,7 +4260,7 @@
 		)
 		(uuid "9d6247b6-ec8d-416b-8039-dce35d954401")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.5048 92.71 0)
+			(at 107.5048 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4492,7 @@
 	)
 	(global_label "ShiftCLK"
 		(shape input)
-		(at 118.11 105.41 180)
+		(at 118.11 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4482,7 +4502,7 @@
 		)
 		(uuid "dcf99bad-a296-4240-b30a-d28396211763")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.142 105.41 0)
+			(at 107.142 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
