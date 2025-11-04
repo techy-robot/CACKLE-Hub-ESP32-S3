@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "CACKLE -  Hub")
-		(date "2025-10-10")
-		(rev "V1.1")
+		(date "2025-11-04")
+		(rev "V1.2")
 		(comment 1 "Licensed under CERN-OHL-S v2")
 		(comment 2 "Author: Asher Edwards")
 	)
