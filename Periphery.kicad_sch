@@ -6702,22 +6702,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "af5d194e-6d6f-4c9b-9990-1b89dce659df")
+			(uuid "af5d194e-6d6f-4c9b-9990-1b89dce659e0")
 		)
 		(pin "1"
-			(uuid "96d19de4-7661-4964-bf96-00d39de4fdf5")
+			(uuid "96d19de4-7661-4964-bf96-00d39de4fdf6")
 		)
 		(pin "2"
-			(uuid "0a5ed9a0-11e8-4ba2-8b6f-a38d2e080d4e")
+			(uuid "0a5ed9a0-11e8-4ba2-8b6f-a38d2e080d4f")
 		)
 		(pin "3"
-			(uuid "fd14cca3-8c62-4606-af4e-330616cb86cf")
+			(uuid "fd14cca3-8c62-4606-af4e-330616cb86d0")
 		)
 		(pin "6"
-			(uuid "d4cf4d24-8e9f-45d9-aabc-2e792d54fc30")
+			(uuid "d4cf4d24-8e9f-45d9-aabc-2e792d54fc31")
 		)
 		(pin "4"
-			(uuid "c5988118-31ac-4624-9553-eba348c5f1b1")
+			(uuid "c5988118-31ac-4624-9553-eba348c5f1b2")
 		)
 		(instances
 			(project ""
@@ -7351,7 +7351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_Power_QFN:QFN-10-1EP_2x2mm_P0.5mm"
+		(property "Footprint" "custom_Power_QFN:QFN-10_10VQFN_2x2mm_P0.5mm"
 			(at 151.13 142.24 0)
 			(effects
 				(font
