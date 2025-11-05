@@ -2198,7 +2198,7 @@
 	)
 	(text "This hub can hold two sensors"
 		(exclude_from_sim no)
-		(at 210.058 78.74 0)
+		(at 212.09 86.614 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2208,7 +2208,7 @@
 	)
 	(text "DEBUG pins"
 		(exclude_from_sim no)
-		(at 200.406 17.526 0)
+		(at 198.12 18.034 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2218,7 +2218,7 @@
 	)
 	(text_box "Reverse Orientation Connector, All pins are the same on both sides"
 		(exclude_from_sim no)
-		(at 149.86 68.58 0)
+		(at 199.39 65.024 0)
 		(size 25.4 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2276,7 +2276,7 @@
 		)
 		(uuid "1cae23f3-af21-4ec5-bd4c-d8fde6cb3e78")
 	)
-	(text_box "Add capacitive bus isolators so long distances have less of an effect"
+	(text_box "Potentially add capacitive bus isolators so long distances have less of an effect"
 		(exclude_from_sim no)
 		(at 105.41 80.01 0)
 		(size 19.05 16.51)
@@ -2298,7 +2298,7 @@
 	)
 	(text_box "All connectors need: SPI, I2C, programming, and 1 multipurpose pin. Beyond that, nothing is gaurunteed (what do the free pins do, are they different on each side, etc...)\n"
 		(exclude_from_sim no)
-		(at 179.07 139.7 0)
+		(at 200.914 137.16 0)
 		(size 26.67 17.78)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2798,16 +2798,6 @@
 			(type dash)
 		)
 		(uuid "81b3bf41-9822-4a41-832a-39a441d23c83")
-	)
-	(wire
-		(pts
-			(xy 194.31 21.59) (xy 189.23 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8203250a-a842-43e5-b5c5-75282ee2172a")
 	)
 	(wire
 		(pts
@@ -4641,22 +4631,22 @@
 	)
 	(global_label "UART0-RTS{slash}CS0"
 		(shape input)
-		(at 194.31 21.59 0)
+		(at 198.12 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b9123ea9-2835-4558-aff9-a3efdaf76e65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2004 21.59 0)
+			(at 179.2296 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7927,7 +7917,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 189.23 21.59 90)
+		(at 198.12 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7935,7 +7925,7 @@
 		(dnp no)
 		(uuid "948cb43d-20a3-4abe-87d6-64a47c45003f")
 		(property "Reference" "TP20"
-			(at 186.182 23.876 90)
+			(at 204.978 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,7 +7933,7 @@
 			)
 		)
 		(property "Value" "CS0"
-			(at 178.562 21.59 90)
+			(at 210.058 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +7941,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 189.23 16.51 0)
+			(at 198.12 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +7950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 16.51 0)
+			(at 198.12 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +7959,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 189.23 21.59 0)
+			(at 198.12 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,7 +8062,7 @@
 			)
 		)
 		(property "Value" "TX"
-			(at 207.01 32.004 90)
+			(at 209.55 32.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9191,7 +9181,7 @@
 			)
 		)
 		(property "Value" "RX"
-			(at 207.01 28.194 90)
+			(at 209.804 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
