@@ -3000,6 +3000,26 @@
 		)
 		(uuid "28383806-ba4c-4b8f-aaa9-7f5797e952cd")
 	)
+	(text_box "10nF stitching caps for high frequency return paths"
+		(exclude_from_sim no)
+		(at 16.002 49.784 0)
+		(size 20.066 8.636)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "29d76915-4f5c-4e9b-8376-b993531b5502")
+	)
 	(text_box "5.45ms charge time for 500ma"
 		(exclude_from_sim no)
 		(at 157.226 165.1 0)
@@ -3950,7 +3970,7 @@
 	)
 	(global_label "4D"
 		(shape input)
-		(at 64.77 129.54 0)
+		(at 64.77 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3960,7 +3980,7 @@
 		)
 		(uuid "195ae477-19f7-472f-a803-3d2ffdf4dffb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2347 129.54 0)
+			(at 70.2347 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3992,7 @@
 	)
 	(global_label "4C"
 		(shape input)
-		(at 64.77 132.08 0)
+		(at 64.77 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3982,7 +4002,7 @@
 		)
 		(uuid "22d7d7ec-cd5f-4cda-bab4-f519734105a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2347 132.08 0)
+			(at 70.2347 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +4014,7 @@
 	)
 	(global_label "3D"
 		(shape input)
-		(at 64.77 139.7 0)
+		(at 64.77 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4004,7 +4024,7 @@
 		)
 		(uuid "27c69b7c-87e6-43cb-bca7-64bd18041496")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2347 139.7 0)
+			(at 70.2347 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4080,7 @@
 	)
 	(global_label "3C"
 		(shape input)
-		(at 64.77 142.24 0)
+		(at 64.77 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4070,7 +4090,7 @@
 		)
 		(uuid "3be419c4-96c0-4d91-9598-ffe39fac18e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2347 142.24 0)
+			(at 70.2347 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4124,7 @@
 	)
 	(global_label "4B"
 		(shape input)
-		(at 64.77 124.46 0)
+		(at 64.77 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4114,7 +4134,7 @@
 		)
 		(uuid "5311db37-9052-4bcf-a002-c9fcf0db040f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2347 124.46 0)
+			(at 70.2347 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4344,7 @@
 	)
 	(global_label "3A"
 		(shape input)
-		(at 64.77 134.62 0)
+		(at 64.77 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4334,7 +4354,7 @@
 		)
 		(uuid "8973c9f0-6f28-429c-b771-cfbaa6ab82b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.0533 134.62 0)
+			(at 70.0533 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4410,7 @@
 	)
 	(global_label "3B"
 		(shape input)
-		(at 64.77 137.16 0)
+		(at 64.77 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4400,7 +4420,7 @@
 		)
 		(uuid "a29c6102-4a3c-4888-bc50-383985b74824")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2347 137.16 0)
+			(at 70.2347 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4520,7 @@
 	)
 	(global_label "4A"
 		(shape input)
-		(at 64.77 127 0)
+		(at 64.77 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4510,7 +4530,7 @@
 		)
 		(uuid "b4ececf0-979f-432e-9c2f-2d8200b1cef7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.0533 127 0)
+			(at 70.0533 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,6 +4761,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 24.13 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00bd30ac-0613-407b-a6d7-695881da8244")
+		(property "Reference" "C22"
+			(at 25.908 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 28.194 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 24.13 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 24.13 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 25.908 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae0c364d-6a4e-4e45-9a6b-2bdc49fa43fe")
+		)
+		(pin "1"
+			(uuid "cbe9f605-98d6-47ea-a6ac-60124f30eb84")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 54.61 119.38 0)
 		(unit 1)
@@ -4942,6 +5038,72 @@
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "147b229d-ed6a-4516-b0b1-1548a746a269")
+		(property "Reference" "#PWR077"
+			(at 24.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e9ba5a2-4533-4f37-a492-877004bc04e8")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -5244,6 +5406,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 24.13 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f32392f-bbf1-4d40-9e2e-4a5851c2356b")
+		(property "Reference" "C19"
+			(at 25.908 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 28.194 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 25.908 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7e8409f-f9ec-465f-8c36-fa8061d9e039")
+		)
+		(pin "1"
+			(uuid "e9761474-0f50-48ec-b046-ed4580dfb718")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 87.63 0)
 		(unit 1)
@@ -5447,6 +5685,71 @@
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 24.13 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e0bab6d-44a7-4d64-9e62-18d78ad36e2a")
+		(property "Reference" "#PWR074"
+			(at 24.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 26.416 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 24.13 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ad02575-c0a3-4c4b-9a96-74fc3dc48b83")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5739,6 +6042,82 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 24.13 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d85aa9e-32f9-4d7d-a161-d43aa947e7a2")
+		(property "Reference" "C20"
+			(at 25.908 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 28.194 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 24.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 24.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 25.908 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "944b7ec2-1ad3-4bf7-b81d-788a0cb61d4a")
+		)
+		(pin "1"
+			(uuid "bd51fffd-72f7-4de4-a9b7-e770dd175fe8")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 76.2 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5955,6 +6334,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 24.13 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66c12d7c-3d44-497e-b381-fe7a816dce81")
+		(property "Reference" "#PWR073"
+			(at 24.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49e0bb63-dc6c-49b4-9493-734d5207704d")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 227.33 21.59 180)
 		(unit 1)
@@ -6025,6 +6470,82 @@
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 24.13 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d2099ae-45d8-4ccf-b278-52571f4e8243")
+		(property "Reference" "C21"
+			(at 25.908 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 28.194 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 24.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 24.13 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 25.908 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a84fb44d-37e4-4cc5-be8b-013def44cc9a")
+		)
+		(pin "1"
+			(uuid "6a7b2ad7-f561-4030-9422-9448b84ef4d9")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -7260,6 +7781,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 24.13 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c59112fe-b3ae-400d-b035-3c1696f6286b")
+		(property "Reference" "#PWR070"
+			(at 24.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 26.416 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 24.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06a25a45-e969-4bd4-93a9-31d49a6b2b0e")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 33.02 0)
 		(unit 1)
@@ -7639,6 +8225,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 24.13 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3ef6774-7d1c-49be-86d2-e4ce06560cf1")
+		(property "Reference" "#PWR072"
+			(at 24.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 26.416 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 24.13 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba845093-1afb-437a-883e-9a68785f8a50")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 223.52 74.93 270)
 		(unit 1)
@@ -7856,6 +8507,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 24.13 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0d2b32b-bc41-430f-87e2-c915ef488c82")
+		(property "Reference" "#PWR075"
+			(at 24.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16a19458-2fb2-43c1-8407-16a6034a6afe")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 26.67 90.17 180)
 		(unit 1)
@@ -7928,6 +8645,137 @@
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 24.13 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6861073-e49a-4008-9b6d-a464a1c763a8")
+		(property "Reference" "#PWR076"
+			(at 24.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 26.416 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 24.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a9cfc75-3d03-4fdf-933d-f984b9a35f01")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd27e6f9-92c8-4c81-80fc-cd525427402f")
+		(property "Reference" "#PWR071"
+			(at 24.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62183617-79b6-487c-9c60-d57196309675")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)

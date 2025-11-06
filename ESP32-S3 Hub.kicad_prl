@@ -135,12 +135,12 @@
           "pos_x": 0,
           "pos_y": 64,
           "size_x": 1280,
-          "size_y": 338
+          "size_y": 583
         }
       },
       {
         "name": "ESP32-S3 Hub.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
