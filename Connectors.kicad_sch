@@ -4033,7 +4033,7 @@
 			)
 		)
 	)
-	(global_label "ADC-3A"
+	(global_label "ADC-4A"
 		(shape input)
 		(at 24.13 158.75 180)
 		(fields_autoplaced yes)
@@ -4099,7 +4099,7 @@
 			)
 		)
 	)
-	(global_label "ADC-3C"
+	(global_label "ADC-4C"
 		(shape input)
 		(at 24.13 161.29 180)
 		(fields_autoplaced yes)
@@ -4715,7 +4715,7 @@
 			)
 		)
 	)
-	(global_label "ADC-3D"
+	(global_label "ADC-4D"
 		(shape input)
 		(at 44.45 161.29 0)
 		(fields_autoplaced yes)
@@ -4825,7 +4825,7 @@
 			)
 		)
 	)
-	(global_label "ADC-3B"
+	(global_label "ADC-4B"
 		(shape input)
 		(at 44.45 158.75 0)
 		(fields_autoplaced yes)
