@@ -1,8 +1,11 @@
 ---
-modified: 2025-01-12T16:18:18-07:00
+modified: 2025-11-07T22:07:35-07:00
 ---
 
 # ESP32-S3 Hub
+
+> [!TIP]
+> This board is part of a larger modular control board ecosystem, [CACKLE](https://github.com/techy-robot/CACKLE)
 
 This is a 4-driver hub based on the Espressif ESP32-S3FH4 chip. It has two cores powerful running at 240 mhz, and 4mb of flash memory. Other variants of the ESP32-S3 can be used as long as they have built in flash memory.
 
