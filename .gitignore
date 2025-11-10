@@ -1,0 +1,9 @@
+# kicad files
+*fp-info-cache*
+*fabrication-toolkit-options.json
+\#auto_saved_files#
+_autosave-*
+*.lck
+
+# specific files and directories
+**/*backups/*.zip
