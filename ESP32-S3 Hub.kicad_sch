@@ -2999,6 +2999,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 44.45) (xy 127 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979c69b8-87bc-4c6f-a497-085b16eb7fd9")
+	)
+	(wire
+		(pts
 			(xy 118.11 80.01) (xy 121.92 80.01)
 		)
 		(stroke
@@ -3056,6 +3066,16 @@
 			(type default)
 		)
 		(uuid "b2dd8625-b957-4e2b-9107-b38be60c3440")
+	)
+	(wire
+		(pts
+			(xy 119.38 39.37) (xy 127 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b384df6e-d8de-4414-96f9-822c89e5c8bc")
 	)
 	(wire
 		(pts
@@ -5162,6 +5182,82 @@
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 119.38 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63a6d63e-7d72-4f9e-98ec-35103367051b")
+		(property "Reference" "C3"
+			(at 116.586 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 122.936 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 121.92 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b5bb4aa-da66-423a-ad73-6eb409d148aa")
+		)
+		(pin "1"
+			(uuid "63eb8684-5dbf-4661-a32a-d64e1642ef89")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658"
+					(reference "C3")
 					(unit 1)
 				)
 			)
