@@ -12,27 +12,420 @@
 		(comment 2 "Author: Asher Edwards")
 	)
 	(lib_symbols
+		(symbol "74HC595_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U5"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SN74LV595A"
+				(at 2.1433 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:DHVQFN-16-1EP_2.5x3.5mm_P0.5mm_EP1x2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "HCMOS SR 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC595_1_1_0"
+				(pin input line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "SER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{SRCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "RCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "QA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "QB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "QC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "QD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "QF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "QG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "QH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "QH'"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC595_1_1_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "74xx:74HC595"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 13.97 0)
+			(property "Reference" "U?"
+				(at 0 -0.762 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "74HC595"
-				(at -7.62 -16.51 0)
+			(property "Value" "SN74LV595A"
+				(at 2.1433 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DFN_QFN:DHVQFN-16-1EP_2.5x3.5mm_P0.5mm_EP1x2mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -179,6 +572,25 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(hide yes)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3020,6 +3432,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 106.68) (xy 54.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df245b9-9282-4598-a102-86e60fe8a89c")
+	)
+	(wire
+		(pts
 			(xy 68.58 85.09) (xy 64.77 85.09)
 		)
 		(stroke
@@ -4580,7 +5002,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 105.41 0)
+		(at 54.61 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4588,7 +5010,7 @@
 		(dnp no)
 		(uuid "004713f7-4fc5-4a17-817b-cddcc4455a83")
 		(property "Reference" "#PWR049"
-			(at 54.61 111.76 0)
+			(at 54.61 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +5019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 109.474 0)
+			(at 54.61 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +5027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 105.41 0)
+			(at 54.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +5036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 105.41 0)
+			(at 54.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +5045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 105.41 0)
+			(at 54.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,6 +5057,12 @@
 			(uuid "eed7ea28-b81c-42a3-ac3f-b605993f4e9f")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR049")
@@ -4711,6 +5139,12 @@
 			(uuid "cbe9f605-98d6-47ea-a6ac-60124f30eb84")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "C22")
@@ -4776,6 +5210,12 @@
 			(uuid "46ef5622-e00c-44e6-9a23-4765c9317747")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR010")
@@ -4842,6 +5282,12 @@
 			(uuid "32c8b2d9-23f5-4b30-8a24-58ec21d5a0a7")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR021")
@@ -4918,6 +5364,12 @@
 			(uuid "7903d40d-cad3-4efd-9bc2-3a177a3c10aa")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R17")
@@ -4985,6 +5437,12 @@
 			(uuid "1f4316c1-7847-428f-b7ee-cb48d68892e3")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#FLG?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#FLG02")
@@ -5051,6 +5509,12 @@
 			(uuid "7e9ba5a2-4533-4f37-a492-877004bc04e8")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR077")
@@ -5129,6 +5593,12 @@
 			(uuid "d2d79d12-879e-4dbf-bfc6-d4018fe93ccc")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "SW2")
@@ -5195,6 +5665,12 @@
 			(uuid "b53ad440-004c-49db-ba42-ea0e527f028d")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR046")
@@ -5282,6 +5758,12 @@
 			(uuid "4f492bb9-85b2-4ace-bcd9-2e15fd65e9ed")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "U3")
@@ -5347,6 +5829,12 @@
 			(uuid "a793ef79-7cdf-427d-b723-e5002de6f603")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR047")
@@ -5423,6 +5911,12 @@
 			(uuid "e9761474-0f50-48ec-b046-ed4580dfb718")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "C19")
@@ -5489,6 +5983,12 @@
 			(uuid "974e48a9-93e5-4015-82dd-10aaa653df75")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR068")
@@ -5554,6 +6054,12 @@
 			(uuid "1dbb5235-2bbe-4e6d-a8fe-0eac207533ea")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR069")
@@ -5632,6 +6138,12 @@
 			(uuid "7f567572-0475-4900-9dca-0a523ea8a149")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "SW1")
@@ -5697,6 +6209,12 @@
 			(uuid "2ad02575-c0a3-4c4b-9a96-74fc3dc48b83")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR074")
@@ -5762,6 +6280,12 @@
 			(uuid "fc59b436-9608-4bb8-a013-31dd015723db")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR035")
@@ -5840,6 +6364,12 @@
 			(uuid "bb46afb8-227e-4e2f-bca5-1c061cb78a5d")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R14")
@@ -5916,6 +6446,12 @@
 			(uuid "6b849f99-fb11-4f79-be2d-53c46d2ec260")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "C18")
@@ -5982,6 +6518,12 @@
 			(uuid "97e4e5cf-d552-4997-8502-a4288de746ca")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR034")
@@ -6058,6 +6600,12 @@
 			(uuid "bd51fffd-72f7-4de4-a9b7-e770dd175fe8")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "C20")
@@ -6134,6 +6682,12 @@
 			(uuid "756177f9-e687-448d-992b-7f33f635d4d9")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "C15")
@@ -6210,6 +6764,12 @@
 			(uuid "7266536b-a60b-4735-a06d-5c4ff43134d2")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "C17")
@@ -6276,6 +6836,12 @@
 			(uuid "49e0bb63-dc6c-49b4-9493-734d5207704d")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR073")
@@ -6352,6 +6918,12 @@
 			(uuid "6a7b2ad7-f561-4030-9422-9448b84ef4d9")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "C21")
@@ -6418,6 +6990,12 @@
 			(uuid "55380db5-8b23-40ba-9baa-6c530c1b75bb")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR044")
@@ -6484,6 +7062,12 @@
 			(uuid "f8afad83-7d72-4c9e-8a0d-e0ff77d737e3")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR066")
@@ -6562,6 +7146,12 @@
 			(uuid "e667e4a7-8132-41c0-a41f-8315de4c6b4d")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R15")
@@ -6672,7 +7262,16 @@
 		(pin "1"
 			(uuid "3a776485-d8d7-4086-a098-2ee2e9ad4e94")
 		)
+		(pin "17"
+			(uuid "cd316243-bc31-4fc8-aa50-26b91ad46b61")
+		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "U2")
@@ -6739,6 +7338,12 @@
 			(uuid "2b1dfc44-eace-4c64-9382-4072d118025b")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR085")
@@ -6816,6 +7421,12 @@
 			(uuid "dc38c802-4a69-4a72-86fa-8a14f40a6640")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R10")
@@ -6881,6 +7492,12 @@
 			(uuid "4a35f2bd-6758-453d-a84e-8c1338f8840b")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR048")
@@ -6963,6 +7580,12 @@
 			(uuid "c5988118-31ac-4624-9553-eba348c5f1b1")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "U6")
@@ -7047,6 +7670,12 @@
 			(uuid "c5988118-31ac-4624-9553-eba348c5f1b2")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "U6")
@@ -7112,6 +7741,12 @@
 			(uuid "bbcc05bc-a9c9-4936-8d31-eec5149caae9")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR045")
@@ -7121,6 +7756,7 @@
 		)
 	)
 	(symbol
+		(lib_name "74HC595_1")
 		(lib_id "74xx:74HC595")
 		(at 54.61 87.63 0)
 		(unit 1)
@@ -7222,7 +7858,16 @@
 		(pin "1"
 			(uuid "20a3f993-b72c-4402-ae97-3f93a94d2fca")
 		)
+		(pin "17"
+			(uuid "ada6d601-29f3-43f7-96ec-2ced34d5cc9a")
+		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "U5")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "U5")
@@ -7289,6 +7934,12 @@
 			(uuid "2f0799cc-6272-4362-9425-bb2f9f1dfa65")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR036")
@@ -7354,6 +8005,12 @@
 			(uuid "6a30492b-ca68-42b4-9188-8ffad788a495")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR050")
@@ -7432,6 +8089,12 @@
 			(uuid "fe65162f-8a90-479d-ba4d-ba14bab51048")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R11")
@@ -7497,6 +8160,12 @@
 			(uuid "1cdd2b11-d125-4e0e-8a09-fcc18cb180a2")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR067")
@@ -7562,6 +8231,12 @@
 			(uuid "06a25a45-e969-4bd4-93a9-31d49a6b2b0e")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR070")
@@ -7628,6 +8303,12 @@
 			(uuid "d9022761-5b4a-40ee-933d-be5160b31363")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR025")
@@ -7720,6 +8401,12 @@
 			(uuid "2934f561-be66-40f8-8d04-163d8e9b34cc")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "U4")
@@ -7798,6 +8485,12 @@
 			(uuid "760fdbe3-34ff-49dd-954e-2bd62d4321a3")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R21")
@@ -7876,6 +8569,12 @@
 			(uuid "d101b1f9-674f-40e4-bff6-f61f87f5e690")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R12")
@@ -7941,6 +8640,12 @@
 			(uuid "c84a1a73-0500-4025-80de-5def2ab7b1fb")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR065")
@@ -8006,6 +8711,12 @@
 			(uuid "ba845093-1afb-437a-883e-9a68785f8a50")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR072")
@@ -8082,6 +8793,12 @@
 			(uuid "86351989-6e3d-451b-8b02-b460875be997")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R16")
@@ -8158,6 +8875,12 @@
 			(uuid "cbae8672-5a97-4680-8380-9098231ec8f2")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "C16")
@@ -8223,6 +8946,12 @@
 			(uuid "e7aa1600-cae5-4fb3-a7d9-b6dea32d8008")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR017")
@@ -8289,6 +9018,12 @@
 			(uuid "16a19458-2fb2-43c1-8407-16a6034a6afe")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR075")
@@ -8367,6 +9102,12 @@
 			(uuid "74f41818-2f8a-41f9-ae86-89b1502ebb7b")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "R13")
@@ -8433,6 +9174,12 @@
 			(uuid "fa8324b2-3707-455d-8034-7edd0367d3eb")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR086")
@@ -8498,6 +9245,12 @@
 			(uuid "8a9cfc75-3d03-4fdf-933d-f984b9a35f01")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR076")
@@ -8563,6 +9316,12 @@
 			(uuid "e0e45b64-bed9-4220-870e-19e680339ebf")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR087")
@@ -8629,6 +9388,12 @@
 			(uuid "62183617-79b6-487c-9c60-d57196309675")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR071")
@@ -8714,6 +9479,12 @@
 			(uuid "ca2b6415-152c-42ea-8612-04dec67585e0")
 		)
 		(instances
+			(project "Periphery"
+				(path "/03e66e54-5506-4714-8a57-86b288c1b50f"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "D1")
@@ -8722,4 +9493,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
