@@ -2119,7 +2119,7 @@
 		)
 		(uuid "0e8ed6bc-3c1d-44c6-b9d3-0821ae0bacfe")
 	)
-	(text_box "IO46 controls UART 2nd boot output, and has to be low for programming. Safer to leave it unused"
+	(text_box "IO46 controls UART 2nd boot output, and has to be low for programming. Connected to RS485 term resistor switch as well"
 		(exclude_from_sim no)
 		(at 174.498 127.254 0)
 		(size 26.67 12.7)
@@ -2559,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 118.11) (xy 185.42 118.11)
+			(xy 167.64 118.11) (xy 171.45 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4049,6 +4049,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_Switch"
+		(shape input)
+		(at 171.45 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8cd79fa-1372-4fc5-aa19-4e085b404eed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.7809 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6197,71 +6219,6 @@
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658"
 					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9862f229-e88f-425e-b9ed-c45faa5839d8")
-		(property "Reference" "#PWR043"
-			(at 185.42 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 188.468 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eec5bed6-e4b1-4c0a-96cf-e4f18e49394e")
-		)
-		(instances
-			(project "ESP32-S3 Hub"
-				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)

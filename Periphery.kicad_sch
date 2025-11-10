@@ -3018,6 +3018,26 @@
 		)
 		(uuid "07d305d7-a518-44c8-ab6f-298a0c8f9ee7")
 	)
+	(text_box "High = COM connected to NO(1)\nLow = COM connected to NC(3)"
+		(exclude_from_sim no)
+		(at 217.424 51.562 0)
+		(size 21.336 10.922)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0b470c41-9271-4a80-bcb5-30693309eee8")
+	)
 	(text_box "RTS active high, internal 2 M pulldown"
 		(exclude_from_sim no)
 		(at 114.554 94.234 0)
@@ -3078,10 +3098,10 @@
 		)
 		(uuid "21436d23-e073-4022-a861-8b99c680d347")
 	)
-	(text_box "Configurable resistance with analog switch. In default boot mode this is disabled with the pullup. Uses last available pin"
+	(text_box "Configurable resistance with analog switch. In default boot mode this is disabled with the pulldown. Uses last available pin, which has to be low on boot"
 		(exclude_from_sim no)
-		(at 224.028 92.71 0)
-		(size 24.638 17.272)
+		(at 201.168 87.122 0)
+		(size 24.638 18.796)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3277,6 +3297,12 @@
 		(uuid "35ef5d69-7871-415e-a108-56070c714426")
 	)
 	(junction
+		(at 233.68 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "771fd973-3ad6-4112-abba-aa9c20c6f1c7")
+	)
+	(junction
 		(at 132.08 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3344,7 +3370,7 @@
 	)
 	(no_connect
 		(at 241.3 72.39)
-		(uuid "04d958b7-0ed0-4b95-a110-c421aa6b17c9")
+		(uuid "3b7bd521-c136-47f8-af6e-28cb58c73f92")
 	)
 	(no_connect
 		(at 64.77 147.32)
@@ -3752,6 +3778,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 91.44) (xy 233.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909ae688-9442-4059-b9e5-96b8f70a3b35")
+	)
+	(wire
+		(pts
 			(xy 132.08 132.08) (xy 138.43 132.08)
 		)
 		(stroke
@@ -4052,6 +4088,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 88.9) (xy 233.68 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ed1fc7-ddc6-4fa5-8ced-8fc8e8f0ebb7")
+	)
+	(wire
+		(pts
 			(xy 68.58 137.16) (xy 64.77 137.16)
 		)
 		(stroke
@@ -4069,6 +4115,16 @@
 			(type default)
 		)
 		(uuid "d4f97356-afbd-4577-90ee-95a81387a42e")
+	)
+	(wire
+		(pts
+			(xy 233.68 88.9) (xy 246.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5eb7b4a-1575-45c1-997f-8a2aa73ed72e")
 	)
 	(wire
 		(pts
@@ -4626,6 +4682,28 @@
 			)
 		)
 	)
+	(global_label "R_Switch"
+		(shape input)
+		(at 233.68 91.44 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8636cff0-b5a5-4d6e-b444-cef4dcca76e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 102.7709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM-3A"
 		(shape input)
 		(at 68.58 127 0)
@@ -4771,28 +4849,6 @@
 		(uuid "a7ebdcb4-d7a3-42ab-a32d-72545c0e2810")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.672 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BOOT"
-		(shape input)
-		(at 233.68 82.55 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "afb01299-0c1a-42ee-9b9b-06269baf44a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 90.4338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8240,6 +8296,148 @@
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 246.38 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d176f71b-36c9-45aa-b4e0-6702f91f8716")
+		(property "Reference" "R22"
+			(at 241.554 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 249.428 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 246.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 246.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 241.554 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97a7e88f-51eb-4cf3-bb70-c6f90d74369f")
+		)
+		(pin "1"
+			(uuid "df2703ee-0f46-46d2-a293-1c09290bba43")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d27e3727-2b09-4257-a876-c8cd561315a0")
+		(property "Reference" "#PWR043"
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47adbae3-394d-49cf-9651-6f6d8129ca91")
+		)
+		(instances
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/c12991ca-4617-4c32-8678-9934d12b2f96"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
