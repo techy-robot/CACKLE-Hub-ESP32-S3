@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|151948938|83663951|18dc4830-ab43-43f1-a69b-0c8906191883|e1780302-f721-4a60-87ef-7b09fcee2f6a",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -125,7 +130,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.13,
-        "min_connection": 0.1,
+        "min_connection": 0.13,
         "min_copper_edge_clearance": 0.28,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
