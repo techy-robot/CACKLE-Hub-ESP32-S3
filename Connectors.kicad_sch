@@ -2214,6 +2214,26 @@
 		)
 		(uuid "d2b4f9cf-14ed-480d-b9c9-c33a35adb1bc")
 	)
+	(text_box "Maybe buffer the clock net and MOSI. Won't screw up edges depending offboard stuff. SN74LVC2G17"
+		(exclude_from_sim no)
+		(at 106.426 72.136 0)
+		(size 23.114 18.034)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "02bbd61c-29fa-40e3-b267-83c64b5fca51")
+	)
 	(text_box "Reverse orientation top side receptacles, all pins are the same on both sides. This hub can hold two sensors"
 		(exclude_from_sim no)
 		(at 200.914 74.168 0)
@@ -2294,10 +2314,10 @@
 		)
 		(uuid "883e2b76-c3a5-4111-8e35-c88dd134c61d")
 	)
-	(text_box "VBUS - Hotswap controller power input"
+	(text_box "VBUS - Hotswap controller power input. Chained together, so VDD is up top"
 		(exclude_from_sim no)
 		(at 146.558 147.828 0)
-		(size 21.844 8.89)
+		(size 24.638 11.176)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5925,6 +5945,12 @@
 			(uuid "c9ee3864-c427-4de7-b404-607b58cc5015")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J6")
@@ -5990,6 +6016,12 @@
 			(uuid "66ab0195-ab7f-4e9a-91f8-bc6f1d9af8c8")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR041")
@@ -6055,6 +6087,12 @@
 			(uuid "f28d0837-ec43-4952-a7f8-97694fba4ee0")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR042")
@@ -6120,6 +6158,12 @@
 			(uuid "0376ded7-baa6-48ef-9f25-ed2048285142")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR051")
@@ -6185,6 +6229,12 @@
 			(uuid "5b8baaf4-4803-497f-b77d-630d0c91e928")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR033")
@@ -6252,6 +6302,12 @@
 			(uuid "9bdafd0b-d878-4c0c-ac27-3a88eceb51b2")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR031")
@@ -6317,6 +6373,12 @@
 			(uuid "f61f0621-e1cc-4a84-9a9b-8fc4a70c0b9e")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR057")
@@ -6382,6 +6444,12 @@
 			(uuid "d165969b-80a0-4886-9998-61e4c4cdc045")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR060")
@@ -6456,6 +6524,12 @@
 			(uuid "941c640e-2f4d-4e60-a41d-1ddaea0cb8b6")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J18")
@@ -6523,6 +6597,12 @@
 			(uuid "32f783a4-b845-4bee-9caa-2cf3f8052d81")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR022")
@@ -6588,6 +6668,12 @@
 			(uuid "e3b7e968-55e8-49cb-923b-d1704d0dc795")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR058")
@@ -6662,6 +6748,12 @@
 			(uuid "1cb9cfbc-f888-403d-ba5f-77518ea6f776")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J9")
@@ -6727,6 +6819,12 @@
 			(uuid "259119e8-5822-42e4-99ec-e2488c135a20")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR028")
@@ -6793,6 +6891,12 @@
 			(uuid "dccfd7c9-bc71-4335-afb7-0efedf479c6c")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR037")
@@ -6869,6 +6973,12 @@
 			(uuid "c636b01a-6fc5-436c-8e1b-605591cfdfc5")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "R20")
@@ -6954,6 +7064,12 @@
 			(uuid "a4fe26a0-5a82-4bb0-a0c0-c171c6fbf26a")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J5")
@@ -7019,6 +7135,12 @@
 			(uuid "71b3045a-bba2-416a-8404-bb37a899a887")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR023")
@@ -7104,6 +7226,12 @@
 			(uuid "941ae8fe-e09e-48d4-bbdb-bb448dbf4cbe")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J11")
@@ -7178,6 +7306,12 @@
 			(uuid "bb7a53d2-f0a9-46f4-99ae-26f8282a9667")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J4")
@@ -7254,6 +7388,12 @@
 			(uuid "02300d5e-14d7-4641-9df9-9e3821a93a0b")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "R19")
@@ -7328,6 +7468,12 @@
 			(uuid "f603f4eb-702f-41bb-a6a1-3f59b2ab8082")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J15")
@@ -7393,6 +7539,12 @@
 			(uuid "963d2445-ac1c-4951-b1a1-1eabf402199f")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR061")
@@ -7458,6 +7610,12 @@
 			(uuid "d3c4adaf-658e-449e-82ab-52982759e2df")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR011")
@@ -7543,6 +7701,12 @@
 			(uuid "7d94e510-2b76-4946-811f-6ae5c4409c6a")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J8")
@@ -7617,6 +7781,12 @@
 			(uuid "420e0057-73ff-4820-87f8-42c956f5115f")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J10")
@@ -7684,6 +7854,12 @@
 			(uuid "b50a5106-3efc-4bba-b237-f99c906730d5")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR013")
@@ -7769,6 +7945,12 @@
 			(uuid "b226e538-a8bb-48e3-9576-b6a63dbe8e0c")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J3")
@@ -7933,6 +8115,12 @@
 			(uuid "8023a017-3e3b-4ecd-b3ae-4e7aeb5c4f98")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J13")
@@ -8000,6 +8188,12 @@
 			(uuid "f536430f-0690-415f-a974-3f62924fcef8")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR027")
@@ -8065,6 +8259,12 @@
 			(uuid "0daf0a9e-7e52-4ff3-bd88-4829d7a77ba7")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR030")
@@ -8141,6 +8341,12 @@
 			(uuid "79448d82-40e4-42db-a55b-3a86f78a8410")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "R18")
@@ -8206,6 +8412,12 @@
 			(uuid "e2afea73-e39b-4008-b448-6f22356e57bf")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR02")
@@ -8281,6 +8493,12 @@
 			(uuid "a5b9643c-a02a-4f13-a13a-2d158152168c")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J12")
@@ -8346,6 +8564,12 @@
 			(uuid "564f42fa-e532-43c4-8d13-da0cca7551a0")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR063")
@@ -8411,9 +8635,86 @@
 			(uuid "365d9aec-92f2-45c5-b4c9-b05f91be4bce")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 167.64 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "905270f6-be9d-465f-b1db-0afa2c1221e5")
+		(property "Reference" "#PWR038"
+			(at 167.64 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 170.688 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 167.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c5dbbff-02b4-4e84-beab-6c11931d46dc")
+		)
+		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "ESP32-S3 Hub"
+				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8475,6 +8776,12 @@
 			(uuid "0d32128e-fc7a-45a8-9f70-9e830d612ff2")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "TP20")
@@ -8540,6 +8847,12 @@
 			(uuid "0f17dd5b-2533-454f-a01f-b8f428cd1644")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR015")
@@ -8605,6 +8918,12 @@
 			(uuid "db1cb631-d628-4d4c-a15d-3810de1dc469")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR064")
@@ -8670,6 +8989,12 @@
 			(uuid "f1628b02-b0dc-481c-876f-7202cb4f36bf")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR059")
@@ -8735,6 +9060,12 @@
 			(uuid "d4b1c510-310b-4208-be27-00de25ad2e9d")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR054")
@@ -8800,6 +9131,12 @@
 			(uuid "fb6055bd-9030-46f1-9933-c47f388ebbc7")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR04")
@@ -8864,6 +9201,12 @@
 			(uuid "47d6a5de-d5ae-40e1-8dc0-0d8252107547")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "TP3")
@@ -8931,6 +9274,12 @@
 			(uuid "cc5587a9-55fd-456b-960c-edab5db2ccb7")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR080")
@@ -8996,6 +9345,12 @@
 			(uuid "c0480470-efad-4327-aa1e-f6d97f805a83")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR05")
@@ -9061,6 +9416,12 @@
 			(uuid "49e7c76e-4ac5-43ea-883d-0db8739bfea3")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR014")
@@ -9126,6 +9487,12 @@
 			(uuid "a5b4c897-1b5d-4dce-b318-98b74ff79af0")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR040")
@@ -9290,6 +9657,12 @@
 			(uuid "81e4fe65-ba86-4f6f-bddc-f62b13249dc9")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J16")
@@ -9366,76 +9739,15 @@
 			(uuid "db5d9a23-d5be-4d3d-a9ae-335fc051cebd")
 		)
 		(instances
-			(project "ESP32-S3 Hub"
-				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
-					(reference "R2")
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "R?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 167.64 165.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c32a0399-4631-43f4-86b0-3833a89cc888")
-		(property "Reference" "#PWR038"
-			(at 167.64 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 167.64 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 167.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ad020d8-9051-447d-aa52-d1ce6be159b6")
-		)
-		(instances
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
-					(reference "#PWR038")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9498,6 +9810,12 @@
 			(uuid "ef657aff-1381-43fa-8125-6a67476f4454")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR053")
@@ -9563,6 +9881,12 @@
 			(uuid "45495acf-1c35-4926-896f-3c73d62a692d")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR032")
@@ -9628,6 +9952,12 @@
 			(uuid "d3f68e7d-e782-4424-9f73-57336f4971bc")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR026")
@@ -9702,6 +10032,12 @@
 			(uuid "e9393591-9743-4b0b-a076-12f73520475b")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J1")
@@ -9767,6 +10103,12 @@
 			(uuid "2b38ef2e-aab4-4238-bb43-a1f6708ac081")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR062")
@@ -9841,6 +10183,12 @@
 			(uuid "b14cbb3a-8246-4ddb-ab75-169b7a9afce8")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J2")
@@ -9905,6 +10253,12 @@
 			(uuid "98daf92a-6234-406a-8362-289ca644cafe")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "TP?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "TP2")
@@ -9970,6 +10324,12 @@
 			(uuid "3d7f1ed1-593e-4896-a77b-24f8f7676e22")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR016")
@@ -10035,6 +10395,12 @@
 			(uuid "8c7563a4-c81c-41ce-8f02-26e8cd4d39fb")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR039")
@@ -10100,6 +10466,12 @@
 			(uuid "4a369616-083a-43d9-b8a7-f87471452808")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR052")
@@ -10174,6 +10546,12 @@
 			(uuid "8b7c024c-dcb2-40cb-9c6d-baf56ba1a7bf")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "J7")
@@ -10239,6 +10617,12 @@
 			(uuid "529310ed-8092-414b-8b39-ee63d7ce20c8")
 		)
 		(instances
+			(project "Connectors"
+				(path "/67133fec-7c31-447e-85a9-45dbe5dd5a4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "ESP32-S3 Hub"
 				(path "/a8c80fba-3bca-4358-b5bb-9ebf9383c658/e098af34-1b04-4f22-87f1-2a3ef3b390de"
 					(reference "#PWR056")
@@ -10247,4 +10631,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
