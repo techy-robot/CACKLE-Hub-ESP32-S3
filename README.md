@@ -17,3 +17,12 @@ The SPI bus should be able to operate at 80mhz, though this has not been tested 
 
 Partial 3D picture (headers not shown)
 ![Esp32-s3 hub 3D picture](media/Esp32-s3%20hub%203D%20picture.png)
+
+# Sponsorship
+![PCBWay-Logo](media/pcbway-logo-color.svg)
+
+Thanks to PCBWay for sponsoring my project. They kindly offered to allow me to use their pcb manufacturing capabilites for this project.
+
+This board is fairly advanced and tests PCBway's smaller sized manufacturing, with 0.5mil traces and 0.4mm vias.
+
+Try them out if you haven't [https://www.pcbway.com/](https://www.pcbway.com/).
