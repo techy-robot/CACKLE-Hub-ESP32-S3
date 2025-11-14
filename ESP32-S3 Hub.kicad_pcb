@@ -318,7 +318,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C318576"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1432,7 +1432,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25755"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3676,7 +3676,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25741"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6137,7 +6137,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C272874"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9533,6 +9533,13 @@
 			(uuid "5a7af9ea-e3ba-487b-98af-d313201e36c9")
 		)
 		(group ""
+			(uuid "5f26a97d-e68c-4496-b84a-83f3f2738de1")
+			(members "147c806c-7913-49c4-b86e-dea960925428" "5a7af9ea-e3ba-487b-98af-d313201e36c9"
+				"686ed456-b34f-4a81-a657-2de3b9a108d7" "8660ae61-2377-4693-857d-a0f77fadc3a8"
+				"dc907965-6934-4349-b35e-1fe384d060d1"
+			)
+		)
+		(group ""
 			(uuid "8660ae61-2377-4693-857d-a0f77fadc3a8")
 			(members "07d342b5-eb8d-42d1-b6e6-95a7fff96e46" "155d6f89-87d2-444d-aaf4-99bcb53e40fb"
 				"1962ba91-fb53-4ef2-8a9c-a23a38eba35c" "1dfc0fa7-df8f-445f-b5cb-ff454938f167"
@@ -9549,13 +9556,6 @@
 				"c64d90fe-f8dd-4176-9a50-7caa71ccdb67" "cdb6bbaa-caa0-47ea-b58b-a778c4647658"
 				"f5284bbb-f35f-4cc7-9d60-b60af54e2e24" "f6a58e9b-3bd7-4e6d-b0b9-73c17dd1f358"
 				"fe4f71a4-ab42-4f2f-a054-1a9794cfacba" "fe600eee-5567-4309-9f1b-a8818d7e88d3"
-			)
-		)
-		(group ""
-			(uuid "5f26a97d-e68c-4496-b84a-83f3f2738de1")
-			(members "147c806c-7913-49c4-b86e-dea960925428" "5a7af9ea-e3ba-487b-98af-d313201e36c9"
-				"686ed456-b34f-4a81-a657-2de3b9a108d7" "8660ae61-2377-4693-857d-a0f77fadc3a8"
-				"dc907965-6934-4349-b35e-1fe384d060d1" "dd27c1ae-feee-4dde-93b7-39a25f145b3a"
 			)
 		)
 		(embedded_fonts no)
@@ -11217,7 +11217,7 @@
 			(uuid "aa0b5086-7468-4b28-ab32-f11f9f057f79")
 			(members "1cdefc70-6475-4259-b30f-ebca7dcc4e84" "206cabce-23af-4c3a-aa2a-280e20c5e447"
 				"4414b170-7ac1-4938-9e7e-b976386ae864" "90866f10-cf68-499c-8b2f-b19211a7ece1"
-				"cf0f5062-3514-495e-bb48-7f79938dcddd" "ec9cb777-9bbd-48d3-b16d-419556f66583"
+				"ec9cb777-9bbd-48d3-b16d-419556f66583"
 			)
 		)
 		(embedded_fonts no)
@@ -12381,7 +12381,7 @@
 		(path "/e098af34-1b04-4f22-87f1-2a3ef3b390de/506c718c-e620-4a9e-a525-9d14a45299a6")
 		(sheetname "/Connectors/")
 		(sheetfile "Connectors.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_rect
 			(start 0.79 -1.07)
 			(end 1.01 -1.51)
@@ -12599,7 +12599,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25790"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13037,7 +13037,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C138005"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13689,6 +13689,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C6297201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c648aef8-6216-41d2-bf9f-49351e8c0b0a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -14709,6 +14723,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C3662707"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "da6a0736-6f15-4964-a6c6-66cb67c579f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/c12991ca-4617-4c32-8678-9934d12b2f96/d70c46fa-2674-4381-9828-b997e0152b90")
 		(sheetname "/Periphery/")
 		(sheetfile "Periphery.kicad_sch")
@@ -15055,7 +15083,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C318576"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15274,7 +15302,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C541392"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15493,7 +15521,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C321224"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16335,7 +16363,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25079"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16770,6 +16798,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C46388"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "87814dc6-366b-427e-b1c5-e6160c9f46c3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -17259,7 +17301,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C318576"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17478,7 +17520,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C318576"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17699,7 +17741,7 @@
 		(path "/e098af34-1b04-4f22-87f1-2a3ef3b390de/42235bad-bb43-4441-9680-f44f4270db6b")
 		(sheetname "/Connectors/")
 		(sheetfile "Connectors.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_rect
 			(start 0.79 -1.07)
 			(end 1.01 -1.51)
@@ -18137,7 +18179,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C15525"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18351,6 +18393,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C6297201"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eea16b5c-354c-43f7-9b74-fc082c616ced")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -19153,7 +19209,7 @@
 		(path "/e098af34-1b04-4f22-87f1-2a3ef3b390de/5ea3b262-98a2-4bb6-b30c-850ce5e4c111")
 		(sheetname "/Connectors/")
 		(sheetfile "Connectors.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_rect
 			(start -0.71 1.64)
 			(end -0.49 1.3)
@@ -19595,11 +19651,25 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C3235555"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2f2603a0-f996-4515-b3f7-f22df8b7a47a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/c12991ca-4617-4c32-8678-9934d12b2f96/1f8e890e-5f95-4911-9356-02abfa070ded")
 		(sheetname "/Periphery/")
 		(sheetfile "Periphery.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start 0.65 -1.16)
 			(end -0.65 -1.16)
@@ -20114,7 +20184,7 @@
 		(path "/e098af34-1b04-4f22-87f1-2a3ef3b390de/61a4f631-2c2c-4969-b4df-2bd26479eed5")
 		(sheetname "/Connectors/")
 		(sheetfile "Connectors.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_rect
 			(start -0.71 1.64)
 			(end -0.49 1.3)

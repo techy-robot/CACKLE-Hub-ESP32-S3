@@ -5179,7 +5179,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C318576"
 			(at 39.878 148.082 0)
 			(effects
 				(font
@@ -5742,7 +5742,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1f8e890e-5f95-4911-9356-02abfa070ded")
 		(property "Reference" "U3"
 			(at 141.732 67.31 0)
@@ -5781,6 +5781,15 @@
 			)
 		)
 		(property "Description" "Half duplex RS-485/RS-422, 12 Mbps, 3V - 5.5V supply, ±12kV electro-static discharge (ESD) protection, with receiver/driver enable, 32 receiver drive capacity, SOIC-8"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3235555"
 			(at 147.32 82.55 0)
 			(effects
 				(font
@@ -5951,7 +5960,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C318576"
 			(at 39.878 99.822 0)
 			(effects
 				(font
@@ -6404,7 +6413,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25741"
 			(at 178.054 141.986 0)
 			(effects
 				(font
@@ -6486,7 +6495,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C541392"
 			(at 146.558 158.242 0)
 			(effects
 				(font
@@ -6640,7 +6649,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C318576"
 			(at 29.718 99.822 0)
 			(effects
 				(font
@@ -6804,7 +6813,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C272874"
 			(at 159.258 158.242 0)
 			(effects
 				(font
@@ -6958,7 +6967,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" "C318576"
 			(at 29.718 148.082 0)
 			(effects
 				(font
@@ -7186,7 +7195,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C321224"
 			(at 169.164 147.066 0)
 			(effects
 				(font
@@ -7262,6 +7271,15 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6297201"
 			(at 54.61 134.62 0)
 			(effects
 				(font
@@ -7617,6 +7635,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C46388"
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "af5d194e-6d6f-4c9b-9990-1b89dce659df")
 		)
@@ -7699,6 +7726,15 @@
 			)
 		)
 		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6"
+			(at 261.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C46388"
 			(at 261.62 74.93 0)
 			(effects
 				(font
@@ -7858,6 +7894,15 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6297201"
 			(at 54.61 87.63 0)
 			(effects
 				(font
@@ -8129,7 +8174,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25790"
 			(at 133.604 131.826 0)
 			(effects
 				(font
@@ -8568,6 +8613,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3662707"
+			(at 151.13 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47e60a59-f61c-47ec-a3ed-dda1abdf54b1")
 		)
@@ -8667,7 +8721,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25755"
 			(at 178.054 133.096 0)
 			(effects
 				(font
@@ -8751,7 +8805,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C138005"
 			(at 133.604 138.176 0)
 			(effects
 				(font
@@ -8975,7 +9029,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25079"
 			(at 224.028 79.756 0)
 			(effects
 				(font
