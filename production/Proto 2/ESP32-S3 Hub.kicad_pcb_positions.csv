@@ -1,0 +1,71 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+155.475,-82.85,180.0,bottom,C1,,,C_0402_1005Metric,22uF,smt
+153.175,-94.675,-90.0,bottom,C10,,,C_0402_1005Metric,100nF,smt
+148.5,-96.725,90.0,bottom,C11,,,C_0402_1005Metric,12pF,smt
+152.45,-96.85,90.0,bottom,C12,,,C_0402_1005Metric,12pF,smt
+156.5,-103.05,0.0,bottom,C13,,,C_0402_1005Metric,1uF,smt
+150.725,-107.0,180.0,top,C14,,,C_0402_1005Metric,22uF,smt
+161.5,-96.6,0.0,bottom,C15,,,C_0402_1005Metric,1uF,smt
+161.355,-90.275,0.0,bottom,C16,,,C_0402_1005Metric,1uF,smt
+151.6,-110.65,-90.0,top,C17,,,C_0402_1005Metric,3.3nF,smt
+150.23,-106.525,180.0,bottom,C18,,,C_0402_1005Metric,2.7nF,smt
+152.325,-91.825,-90.0,bottom,C19,,,C_0402_1005Metric,10nF,smt
+151.625,-101.225,180.0,bottom,C2,,,C_0402_1005Metric,1uF,smt
+161.55,-97.55,0.0,bottom,C20,,,C_0402_1005Metric,10nF,smt
+158.925,-98.9,180.0,bottom,C21,,,C_0402_1005Metric,10nF,smt
+157.425,-91.225,180.0,top,C22,,,C_0402_1005Metric,10nF,smt
+153.5,-101.175,0.0,bottom,C3,,,C_0402_1005Metric,10uF,smt
+152.775,-100.875,180.0,top,C4,,,C_0402_1005Metric,100nF,smt
+159.375,-91.475,180.0,top,C5,,,C_0402_1005Metric,100nF,smt
+151.655,-99.025,180.0,bottom,C6,,,C_0402_1005Metric,100nF,smt
+161.25,-90.525,180.0,top,C7,,,C_0402_1005Metric,1uF,smt
+161.625,-96.9,180.0,top,C8,,,C_0402_1005Metric,100nF,smt
+150.75,-101.525,0.0,top,C9,,,C_0402_1005Metric,1uF,smt
+158.9,-109.85,90.0,top,D1,,,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2.6~3.1 Fv Green 5ma,smt
+160.85,-108.7,0.0,top,J1,,,Precidip 853-87-004-20-001101,Precidip 853-87-004-20-001101,tht
+149.95,-84.895,180.0,top,J10,,,Precidip 853-87-004-20-001101,Precidip 853-87-004-20-001101,tht
+149.725,-89.275,90.0,bottom,J11,,,fpc_7pin_0.3mm_connector Aces,FPC 0.3mm Aces 51688-0070M,smt
+154.765,-86.05,90.0,top,J12,,,Precidip 853-87-004-20-001101,Precidip 853-87-004-20-001101,tht
+155.4,-104.3,0.0,top,J13,,,TE_mezzanine_rec_3-2363961-0,TE 3-2363961-0 receptacle,smt
+160.85,-98.625,0.0,top,J15,,,Precidip 853-87-004-20-001101,Precidip 853-87-004-20-001101,tht
+155.4,-89.3,0.0,top,J16,,,TE_mezzanine_rec_3-2363961-0,TE 3-2363961-0 receptacle,smt
+156.025,-107.1,-90.0,top,J18,,,Precidip 852-10-004-20-001101,Precidip 852-10-004-20-001101,tht
+149.95,-109.945,180.0,top,J2,,,Precidip 853-87-004-20-001101,Precidip 853-87-004-20-001101,tht
+161.1,-104.2,-90.0,bottom,J3,,,fpc_7pin_0.3mm_connector Aces,FPC 0.3mm Aces 51688-0070M,smt
+149.95,-99.92,180.0,top,J4,,,Precidip 853-87-004-20-001101,Precidip 853-87-004-20-001101,tht
+149.715,-104.2,90.0,bottom,J5,,,fpc_7pin_0.3mm_connector Aces,FPC 0.3mm Aces 51688-0070M,smt
+160.85,-83.63,0.0,top,J6,,,Precidip 853-87-004-20-001101,Precidip 853-87-004-20-001101,tht
+160.85,-93.68,0.0,top,J7,,,Precidip 853-87-004-20-001101,Precidip 853-87-004-20-001101,tht
+161.075,-88.0,-90.0,bottom,J8,,,fpc_7pin_0.3mm_connector Aces,FPC 0.3mm Aces 51688-0070M,smt
+149.95,-94.945,180.0,top,J9,,,Precidip 853-87-004-20-001101,Precidip 853-87-004-20-001101,tht
+159.225,-101.65,90.0,top,R1,,,R_0402_1005Metric,100k,smt
+158.175,-109.475,0.0,bottom,R10,,,R_0402_1005Metric,100 ohm,smt
+152.2,-106.8,180.0,bottom,R11,,,R_0402_1005Metric,470k,smt
+153.6,-106.5,-90.0,bottom,R12,,,R_0402_1005Metric,332k,smt
+159.05,-95.85,-90.0,bottom,R13,,,R_0402_1005Metric,10k,smt
+152.575,-110.625,90.0,top,R14,,,R_0402_1005Metric,100k,smt
+149.925,-107.5,0.0,bottom,R15,,,R_0402_1005Metric,6.04k,smt
+158.15,-82.825,180.0,bottom,R16,,,R_0402_1005Metric,120ohm,smt
+160.9,-102.425,180.0,top,R17,,,R_0402_1005Metric,10k,smt
+149.25,-101.775,180.0,bottom,R18,,,R_0402_1005Metric,10k,smt
+161.25,-89.475,0.0,top,R19,,,R_0402_1005Metric,10k,smt
+161.415,-106.6,0.0,bottom,R2,,,R_0402_1005Metric,10k,smt
+149.55,-86.925,180.0,bottom,R20,,,R_0402_1005Metric,10k,smt
+152.025,-109.2,180.0,top,R21,,,R_0402_1005Metric,150k,smt
+160.325,-86.7,180.0,top,R22,,,R_0402_1005Metric,10k,smt
+151.2,-91.3,180.0,top,R3,,,R_0402_1005Metric,33ohm,smt
+149.7,-91.565001,90.0,top,R4,,,R_0402_1005Metric,33ohm,smt
+151.375,-94.8,0.0,bottom,R5,,,R_0402_1005Metric,33ohm,smt
+149.975,-96.55,0.0,top,R6,,,R_0402_1005Metric,22 ohm,smt
+152.625,-107.0,180.0,top,R7,,,R_0402_1005Metric,10k,smt
+158.775,-107.275,90.0,top,R8,,,R_0402_1005Metric,10k,smt
+157.675,-107.45,90.0,top,R9,,,R_0402_1005Metric,10k,smt
+161.3,-105.1,90.0,top,SW1,,,R-667995_MIT,Mitsumi R-667996,smt
+149.5,-104.2,90.0,top,SW2,,,R-667995_MIT,Mitsumi R-667996,smt
+155.575,-96.1,90.0,top,U1,,,QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm,ESP32-S3 FN8,smt
+158.45,-92.075,180.0,bottom,U2,,,DHVQFN-16-1EP_2.5x3.5mm_P0.5mm_EP1x2mm,SN74LV595A,smt
+152.375,-85.075,0.0,bottom,U3,,,SOT-583-8,THVD1420DRLR,smt
+152.625,-109.525,180.0,bottom,U4,,,QFN-10_10VQFN_2x2mm_P0.5mm,TPS2521ARPWR,smt
+155.65,-96.25,90.0,bottom,U5,,,DHVQFN-16-1EP_2.5x3.5mm_P0.5mm_EP1x2mm,SN74LV595A,smt
+158.35,-84.725,0.0,bottom,U6,,,SOT-363_SC-70-6,TS5A3159DCK,smt
+150.475,-96.8,180.0,bottom,Y1,,,Crystal_SMD_2016-4Pin_2.0x1.6mm,"2 pin 40MHZ, 10ppm tol., 20ppm stab., 10pF",smt
