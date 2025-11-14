@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "CACKLE - Hub")
-		(date "2024-10-20")
-		(rev "V1")
+		(date "2025-11-14")
+		(rev "V2")
 		(comment 1 "Licensed under CERN-OHL-S v2")
 		(comment 2 "Author: Asher Edwards")
 	)
@@ -951,6 +951,7 @@
 		(property "Reference" "J15"
 			(at 3.0675 -1.635 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "75e16c4b-0724-4607-9d60-3703677bd02a")
 			(effects
 				(font
@@ -2034,6 +2035,7 @@
 		(property "Reference" "J7"
 			(at 3.0675 -1.635 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "08f2604a-c8a7-4ee2-bd18-a2363061c3b5")
 			(effects
 				(font
@@ -2369,6 +2371,7 @@
 		(property "Reference" "J12"
 			(at 3.0675 -1.635 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fd3db5c1-be04-4615-bdb5-8ea0a863383b")
 			(effects
 				(font
@@ -3539,6 +3542,7 @@
 		(property "Reference" "J9"
 			(at 3.0675 -1.635 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "665d05be-3fb2-4346-ba86-213a2739b291")
 			(effects
 				(font
@@ -4089,6 +4093,7 @@
 		(property "Reference" "J2"
 			(at 3.0675 -1.635 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c57c3988-3746-43e2-95d4-946aea623193")
 			(effects
 				(font
@@ -5796,6 +5801,7 @@
 		(property "Reference" "J10"
 			(at 3.0675 -1.635 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ac5886f5-5359-4edc-965e-090867c50536")
 			(effects
 				(font
@@ -7178,6 +7184,7 @@
 		(property "Reference" "J4"
 			(at 3.0675 -1.635 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "de65e0ed-ae32-4edb-a8b2-44f568ec5617")
 			(effects
 				(font
@@ -7513,6 +7520,7 @@
 		(property "Reference" "J18"
 			(at 3.0675 -1.635 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "55f9fd80-cddd-48d6-83a5-0d9c5e887316")
 			(effects
 				(font
@@ -10484,6 +10492,7 @@
 		(property "Reference" "J1"
 			(at 3.0675 -1.635 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "20cff897-f09a-4f5d-950c-f56a20250c91")
 			(effects
 				(font
@@ -10819,6 +10828,7 @@
 		(property "Reference" "J6"
 			(at 3.0675 -1.635 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bbff1685-de69-467e-8816-d0c002faebfd")
 			(effects
 				(font
@@ -19774,7 +19784,7 @@
 		)
 	)
 	(gr_text "RX"
-		(at 152.6 85.35 0)
+		(at 153.955 86.155 90)
 		(layer "F.SilkS")
 		(uuid "86a971b0-6824-426a-a6e6-e2e1fab0b504")
 		(effects
@@ -19785,8 +19795,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Module"
-		(at 152.75 102.4 0)
+	(gr_text "EXP1"
+		(at 151.275 102.5 0)
 		(layer "F.SilkS" knockout)
 		(uuid "ad7417d4-59aa-442e-8843-20d048e89417")
 		(effects
@@ -19809,8 +19819,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Module"
-		(at 152.75 92.025 0)
+	(gr_text "EXP2"
+		(at 152.775 92 0)
 		(layer "F.SilkS" knockout)
 		(uuid "cdbce771-876e-4d7d-a6cc-e542e5878817")
 		(effects
@@ -19857,9 +19867,9 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "SPI"
-		(at 158.9 86.525 90)
-		(layer "B.SilkS")
+	(gr_text "SPI3"
+		(at 158.325 86.2 90)
+		(layer "B.SilkS" knockout)
 		(uuid "030cb6c3-eab4-4c71-b6cb-ebf4fe3c07b4")
 		(effects
 			(font
@@ -19869,9 +19879,9 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "SPI"
-		(at 151.775 90.225 270)
-		(layer "B.SilkS")
+	(gr_text "SPI4"
+		(at 151.8 90.65 270)
+		(layer "B.SilkS" knockout)
 		(uuid "083c61d7-09eb-4ed6-8371-13a32759ff7e")
 		(effects
 			(font
@@ -19905,9 +19915,9 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "SPI"
-		(at 152.1 105.2 270)
-		(layer "B.SilkS")
+	(gr_text "SPI2"
+		(at 151.975 106 270)
+		(layer "B.SilkS" knockout)
 		(uuid "58bb4ed3-08a7-4b94-a5a6-db71c3965304")
 		(effects
 			(font
@@ -19917,9 +19927,9 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "SPI"
-		(at 159.2 102.75 90)
-		(layer "B.SilkS")
+	(gr_text "SPI1"
+		(at 159.025 102.425 90)
+		(layer "B.SilkS" knockout)
 		(uuid "64debe05-b38e-4e3b-b395-773c1c75ae80")
 		(effects
 			(font
@@ -19961,6 +19971,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Asher E ${REVISION}"
+		(at 162.5 101.85 0)
+		(layer "B.SilkS")
+		(uuid "de18d6c1-1aad-4146-9994-557f73717da0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
 			)
 			(justify left bottom mirror)
 		)
