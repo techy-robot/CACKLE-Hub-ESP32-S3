@@ -5905,7 +5905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Horizontal"
+		(property "Footprint" "custom_Connector:Precidip 853-87-004-20-001101"
 			(at 33.02 115.57 0)
 			(effects
 				(font
@@ -6484,7 +6484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Horizontal"
+		(property "Footprint" "custom_Connector:Precidip 852-10-004-20-001101"
 			(at 156.21 189.23 0)
 			(effects
 				(font
@@ -6708,7 +6708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Horizontal"
+		(property "Footprint" "custom_Connector:Precidip 853-87-004-20-001101"
 			(at 33.02 147.32 0)
 			(effects
 				(font
@@ -7266,7 +7266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Horizontal"
+		(property "Footprint" "custom_Connector:Precidip 853-87-004-20-001101"
 			(at 33.02 96.52 0)
 			(effects
 				(font
@@ -7428,7 +7428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Horizontal"
+		(property "Footprint" "custom_Connector:Precidip 853-87-004-20-001101"
 			(at 33.02 53.34 0)
 			(effects
 				(font
@@ -7741,7 +7741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Horizontal"
+		(property "Footprint" "custom_Connector:Precidip 853-87-004-20-001101"
 			(at 33.02 158.75 0)
 			(effects
 				(font
@@ -8453,7 +8453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Horizontal"
+		(property "Footprint" "custom_Connector:Precidip 853-87-004-20-001101"
 			(at 156.21 167.64 0)
 			(effects
 				(font
@@ -9992,7 +9992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Horizontal"
+		(property "Footprint" "custom_Connector:Precidip 853-87-004-20-001101"
 			(at 33.02 64.77 0)
 			(effects
 				(font
@@ -10143,7 +10143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Horizontal"
+		(property "Footprint" "custom_Connector:Precidip 853-87-004-20-001101"
 			(at 33.02 85.09 0)
 			(effects
 				(font
@@ -10506,7 +10506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Horizontal"
+		(property "Footprint" "custom_Connector:Precidip 853-87-004-20-001101"
 			(at 33.02 127 0)
 			(effects
 				(font
