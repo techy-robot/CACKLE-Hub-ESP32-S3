@@ -13164,7 +13164,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C6297201"
+		(property "LCSC" "C7083313"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17473,7 +17473,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C6297201"
+		(property "LCSC" "C7083313"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
