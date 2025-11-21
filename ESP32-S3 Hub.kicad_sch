@@ -4230,7 +4230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "custom_Crystal:Crystal_SMD_1612-4Pin_1.6x1.2mm"
 			(at 74.93 121.92 0)
 			(effects
 				(font
@@ -4257,7 +4257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C648973"
+		(property "LCSC" "C49158191"
 			(at 76.2 122.428 0)
 			(effects
 				(font
@@ -5495,7 +5495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 69.85 128.27 0)
 			(effects
 				(font
@@ -5522,7 +5522,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC" "C384960"
 			(at 68.834 128.016 0)
 			(effects
 				(font
@@ -7229,7 +7229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 95.25 120.65 0)
 			(effects
 				(font
@@ -7256,7 +7256,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC" "C155743"
 			(at 93.218 121.92 0)
 			(effects
 				(font
@@ -7459,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 69.85 115.57 0)
 			(effects
 				(font
@@ -7486,7 +7486,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC" "C384960"
 			(at 70.866 115.824 0)
 			(effects
 				(font
