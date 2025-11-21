@@ -60,6 +60,22 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|148755000|95980000|3fed1866-407c-42e4-844d-7475c2d38bdc|415ed5af-b0dd-410e-9c6f-84431e647a79",
+          "Eh, its just the crystal that is very important to stay on top and I will assemble by hand, no biggie"
+        ],
+        [
+          "courtyards_overlap|150107479|97515000|956508cc-22a7-4c1c-8dd1-7bb0627a7eee|d0d77fa8-3fea-41cc-a16e-7877c72c885d",
+          "Eh, its just the crystal that is very important to stay on top and I will assemble by hand, no biggie"
+        ],
+        [
+          "courtyards_overlap|150754520|97515000|3238b181-8662-4940-8fc4-d9588701ace8|956508cc-22a7-4c1c-8dd1-7bb0627a7eee",
+          "Eh, its just the crystal that is very important to stay on top and I will assemble by hand, no biggie"
+        ],
+        [
+          "courtyards_overlap|151444520|97505000|3238b181-8662-4940-8fc4-d9588701ace8|d0d77fa8-3fea-41cc-a16e-7877c72c885d",
+          "Eh, its just the crystal that is very important to stay on top and I will assemble by hand, no biggie"
+        ],
+        [
           "courtyards_overlap|151948938|83663951|18dc4830-ab43-43f1-a69b-0c8906191883|e1780302-f721-4a60-87ef-7b09fcee2f6a",
           ""
         ]
