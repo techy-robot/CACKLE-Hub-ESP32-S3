@@ -7,3 +7,5 @@ _autosave-*
 
 # specific files and directories
 **/*backups/*.zip
+
+production/
